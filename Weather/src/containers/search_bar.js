@@ -38,11 +38,9 @@ import {fetchWeather} from '../actions/index';
                         <button type="submit" className="btn btn-secondary">Submit</button>
                     </span>
             </form>    
-      
         );
     }
 }
-
 
 function mapDispatchToProps (dispatch) {
     return bindActionCreators ({ fetchWeather }, dispatch);
