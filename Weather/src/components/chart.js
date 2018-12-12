@@ -7,8 +7,7 @@ function avarage(data){
 }
 
 export default (props) => {
-    return (
-        
+    return (  
         <div>
             <Sparklines height={80} width={80} data={props.data}>
                     <SparklinesLine color={props.color} />
