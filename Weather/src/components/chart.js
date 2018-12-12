@@ -10,7 +10,7 @@ export default (props) => {
     return (
         
         <div>
-            <Sparklines height={100} width={100} data={props.data}>
+            <Sparklines height={80} width={80} data={props.data}>
                     <SparklinesLine color={props.color} />
             </Sparklines>
             <div>{avarage(props.data)}</div>
