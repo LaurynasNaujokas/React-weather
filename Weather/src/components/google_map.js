@@ -18,4 +18,3 @@ class GoogleMap extends Component {
     }
 }
 
-export default GoogleMap;
