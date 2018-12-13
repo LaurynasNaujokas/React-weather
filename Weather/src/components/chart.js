@@ -12,6 +12,8 @@ export default (props) => {
             <Sparklines height={80} width={80} data={props.data}>
                     <SparklinesLine color={props.color} />
             </Sparklines>
+
+            //new Sparkline here
             <div>{avarage(props.data)}</div>
         </div>        
         );
