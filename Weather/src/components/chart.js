@@ -13,7 +13,7 @@ export default (props) => {
                     <SparklinesLine color={props.color} />
             </Sparklines>
 
-            //new Sparkline here
+          
             <div>{avarage(props.data)}</div>
         </div>        
         );
